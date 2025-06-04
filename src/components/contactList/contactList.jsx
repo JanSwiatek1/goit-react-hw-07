@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchContacts } from '../../redux/contactSlice';
 import { selectNameFilter } from '../../redux/filterSlice';
-import Contact from '../Contact/Contact';
+import Contact from '../contact/Contact';
 
 export default function ContactList() {
   const dispatch = useDispatch();
